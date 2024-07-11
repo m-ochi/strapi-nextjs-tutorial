@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_layout_footers",
+  "info": {
+    "displayName": "Footer"
+  },
+  "options": {},
+  "attributes": {
+    "logoText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.link"
+    },
+    "text": {
+      "type": "string"
+    },
+    "socialLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.link"
+    }
+  }
+}
