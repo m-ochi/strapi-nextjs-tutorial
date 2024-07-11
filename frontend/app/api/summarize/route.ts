@@ -99,7 +99,8 @@ export async function POST(req: NextRequest) {
   const body = await req.json();
   const videoId = body.videoId;
 
-  let transcript: Awaited<ReturnType<typeof getTranscript>>;
+//  let transcript: Awaited<ReturnType<typeof getTranscript>>;
+  let transcript: any;
 
   try {
     transcript = await getTranscript(videoId);

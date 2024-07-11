@@ -8,6 +8,8 @@ const query = qs.stringify({
 
 export async function getUserMeLoader() {
   const baseUrl = getStrapiURL();
+  console.log("baseUrl")
+  console.log(baseUrl)
 
   const url = new URL("/api/users/me", baseUrl);
   url.search = query;
